@@ -1,0 +1,223 @@
+body {
+ display: flex;
+ background-color: #ffffff;
+ flex-direction: column;
+ padding: 0;
+ margin: 0;
+ min-height: 100vh;
+ font-family: poppins, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+
+}
+
+h1 {
+ background-color: #d0c7ff;
+ display: flex;
+ justify-content: space-between;
+ margin: 0;
+ padding: 16px 40px;
+ align-items: center;
+}
+
+h2 {
+ text-align: center;
+ font-size: 32px;
+ margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.information {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 32px;
+ background-color: #150b47;
+ gap: 60px;
+}
+
+.information-text {
+ color: #ffffff;
+ font-size: 18px;
+ text-align: justify;
+}
+
+.information-image {
+ width: auto;
+ height: 300px;
+ border-radius: 8px;
+ border: 2px solid #150b47;
+}
+
+.information-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.program {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 800;
+    color: #150b47;
+}
+
+.program-title {
+    font-size: 32px;
+}
+
+.program-list {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: 50px;
+}
+
+.program-courses {
+    margin-top: 12px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.program-skill {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.program-image {
+    height: 220px;
+    width: 220px;
+    border: 4px solid #7e66f5;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.program-description {
+    margin-top: 0;
+    font-size: 16px;
+    width: 200px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+    font-size: 18px;
+    padding: 70px;
+    margin: 0;
+}
+
+.quote-text {
+    display: flex;
+    width: 1000px;
+    align-self: center;
+    font-style: italic;
+    padding: 40px;
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.visit {
+    background-color: #3c3b96;
+}
+
+.visit {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #55017ca1;
+    border-radius: 16px;
+    margin: 140px;
+    padding: 100px;
+}
+
+.visit-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.visit-text {
+    width: 800px;
+}
+
+.visit-button {
+    color: #150b47;
+    font-weight: bold;
+}
+
+.visit-title {
+    font-weight: 800;
+    color: #150b47;
+}
+
+.apply-button {
+ border: solid 2px #150b47;
+}
+
+button {
+ border-radius: 4px;
+ border: none;
+ font-weight: bold;
+ cursor: pointer;
+ width: 120px;
+ height: 40px;
+ background-color: #d0c7ff;
+ color: #150b47;
+}
+
+.logo {
+ width: 200px;
+ height: 54px;
+ margin-right: auto;
+}
+
+ul {
+ list-style-type: none;
+ display: flex;
+ gap: 32px;
+ font-size: 18px;
+ align-items: center;
+}
+
+a {
+ text-decoration: none;
+ color: #150b47;
+}
+
+.footer {
+    font-size: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    background: #ab9aff;
+    color :#F9FAF8;
+}
