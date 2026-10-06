@@ -150,8 +150,11 @@ a:hover {
     color: #F9FAF8;
     background-color: #55017ca1;
     border-radius: 16px;
-    margin: 140px;
-    padding: 100px;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 1200px;
+    width: 90%;
+    box-sizing: border-box;
 }
 
 .visit-left {
@@ -163,7 +166,8 @@ a:hover {
 }
 
 .visit-text {
-    width: 800px;
+    min-width: 250px;
+    flex: 1;
 }
 
 .visit-button {
